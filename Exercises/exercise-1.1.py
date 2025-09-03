@@ -1,11 +1,15 @@
+# define a function to calculate the area of a rectangle
+def calculate_rectangle_area(length, width):
+    return length * width
+
 # Calculating area of rectangles
 length1 = 10
 width1 = 5
-area_rectangle1 = length1 * width1
+area_rectangle1 = calculate_rectangle_area(length1, width1)
 
 length2 = 15
 width2 = 7
-area_rectangle2 = length2 * width2
+area_rectangle2 = calculate_rectangle_area(length2, width2)
 
 # Calculating area of circles
 radius1 = 4
